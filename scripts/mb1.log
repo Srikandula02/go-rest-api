@@ -1,0 +1,10 @@
+{"level":"info","message":"[mb:2525] mountebank v2.5.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2021-10-25T06:32:48.423Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2021-10-25T06:32:48.566Z"}
+{"level":"info","message":"[http:6000] Open for business...","timestamp":"2021-10-25T06:32:48.625Z"}
+{"level":"info","message":"[http:6000] ::1:58771 => GET /ato/employee/101/super","timestamp":"2021-10-25T06:33:02.555Z"}
+{"level":"info","message":"[http:6000] ::1:58773 => GET /ato/employee/102/super","timestamp":"2021-10-25T06:33:02.581Z"}
+{"level":"info","message":"[http:6000] ::1:58772 => GET /ato/employee/101/super","timestamp":"2021-10-25T06:33:02.592Z"}
+{"level":"info","message":"[http:6000] ::1:58775 => GET /ato/employee/102/super","timestamp":"2021-10-25T06:33:02.612Z"}
+{"level":"info","message":"[http:6000] ::1:58776 => GET /ato/employee/103/super","timestamp":"2021-10-25T06:33:02.628Z"}
+{"level":"info","message":"[http:6000] ::1:58774 => GET /ato/employee/101/super","timestamp":"2021-10-25T06:33:02.632Z"}
+{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2021-10-25T07:06:21.904Z"}

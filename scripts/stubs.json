@@ -1,0 +1,117 @@
+ { "port": 6000,
+  "protocol": "http",
+  "stubs": [
+    {
+      "predicates": [
+        {
+          "equals": {"path":"/ato/employee/101/super"}
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": {
+              "Location": "http://localhost:6000/ato/employee/101/super",
+              "Content-Type": "application/xml"
+            },
+            "body": "23333"
+          }
+        },
+        {
+          "is": {
+            "statusCode": 400,
+            "headers": {
+              "Content-Type": "application/xml"
+            },
+            "body": "0"
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        {
+          "equals": {"path":"/ato/employee/102/super"}
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": {
+              "Location": "http://localhost:6000/ato/employee/102/super",
+              "Content-Type": "application/xml"
+            },
+            "body": "344444"
+          }
+        },
+        {
+          "is": {
+            "statusCode": 400,
+            "headers": {
+              "Content-Type": "application/xml"
+            },
+            "body": "0"
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        {
+          "equals": {"path":"/ato/employee/103/super"}
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": {
+              "Location": "http://localhost:6000/ato/employee/103/super",
+              "Content-Type": "application/xml"
+            },
+            "body": "45555"
+          }
+        },
+        {
+          "is": {
+            "statusCode": 400,
+            "headers": {
+              "Content-Type": "application/xml"
+            },
+            "body": "0"
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        {
+          "equals": {"path":"/ato/employee/104/super"}
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": {
+              "Location": "http://localhost:6000/ato/employee/104/super",
+              "Content-Type": "application/xml"
+            },
+            "body": "56666"
+          }
+        },
+        {
+          "is": {
+            "statusCode": 400,
+            "headers": {
+              "Content-Type": "application/xml"
+            },
+            "body": "0"
+          }
+        }
+      ]
+    }
+  ]
+}
